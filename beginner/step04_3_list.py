@@ -1,3 +1,15 @@
+# Empty Lists
+empty_list = []
+empty_list = list()
+
+# Empty Tuples
+empty_tuple = ()
+empty_tuple = tuple()
+
+# Empty Sets
+empty_set = {}
+empty_set = set()
+
 # Mutable
 list_1 = ['History', 'Math', 'Physics', 'Development']
 list_2 = list_1
@@ -19,6 +31,7 @@ print(tuple_1)
 print(tuple_2)
 print('')
 
+# Doesn't work
 # tuple_1[0] = 'Computer'
 #
 # print(tuple_1)
