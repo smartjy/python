@@ -14,6 +14,7 @@ print (first_msg.lower())
 print (first_msg.upper())
 print (first_msg.count('This'))
 print (first_msg.find('variable'))
+print('first_msg :', first_msg)
 
 second_msg = first_msg.replace('first', 'second')
 
