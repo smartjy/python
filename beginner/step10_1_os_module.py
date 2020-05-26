@@ -1,7 +1,7 @@
 import os
 from datetime import datetime # include timestamp for st_mtime
 
-print(dir(os), '\n')
+#print(dir(os), '\n')
 
 # os.chdir('/Users/jyson/Developments/python')
 

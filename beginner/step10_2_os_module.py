@@ -10,9 +10,20 @@ work_dir = os.getcwd()
 file_path = os.path.join((work_dir), 'README.md')
 print('File Path :', file_path)
 
-dir_name = os.path.dirname('/Users/jyson/Developments/python/beginner/README.md')
-split_name = os.path.split('/Users/jyson/Developments/python/beginner/README.md')
-print('Directory name :', dir_name)
-print('Directory split :', dir_name)
+test_dir = '/tmp/test.txt'
 
-# print(os.path.basename('/Users/jyson/Developments/python/beginner/README.md'))
+dir_name = os.path.dirname(test_dir)
+base_name = os.path.basename(test_dir)
+split_name = os.path.split(test_dir)
+exists_file = os.path.exists(test_dir)
+is_file = os.path.isfile(test_dir)
+split_ext = os.path.splitext(test_dir)
+
+print('Directory name :', dir_name)
+print('Base name :', base_name)
+print('Directory split :', split_name)
+print('Exists File :', exists_file)
+print('Is File :', is_file)
+print('Split Ext :', split_ext)
+
+
