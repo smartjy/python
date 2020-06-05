@@ -10,14 +10,14 @@
 num = 3
 print(type(num))
 
-print ('3 + 2 = '.__str__(), 3 + 2)
-print ('3 - 2 = '.__str__(), 3 - 2)
-print ('3 * 2 = '.__str__(), 3 * 2)
-print ('3 / 2 = '.__str__(), 3 / 2)
-print ('3 // 2 = '.__str__(), 3 // 2)
-print ('3 // 2 = '.__str__(), 3 ** 2)
-print ('3 % 2 = '.__str__(), 3 % 2)
-print ('3 * (2 + 1) = '.__str__(), 3 * (2 + 1))
+print ('3 + 2 = ', 3 + 2)
+print ('3 - 2 = ', 3 - 2)
+print ('3 * 2 = ', 3 * 2)
+print ('3 / 2 = ', 3 / 2)
+print ('3 // 2 = ', 3 // 2)
+print ('3 // 2 = ', 3 ** 2)
+print ('3 % 2 = ', 3 % 2)
+print ('3 * (2 + 1) = ', 3 * (2 + 1))
 
 # Comparisons:
 # Equal:            3 == 2
@@ -30,12 +30,12 @@ print ('3 * (2 + 1) = '.__str__(), 3 * (2 + 1))
 num1 = 3
 num2 = 2
 
-print(num1, '=='.__str__(), num2, ', Equal ='.__str__(), num1 == num2 )
-print(num1, '!='.__str__(), num2, ', Not Equal ='.__str__(), num1 != num2 )
-print(num1, '>'.__str__(), num2, ', Greater Than ='.__str__(), num1 > num2 )
-print(num1, '<'.__str__(), num2, ', Less Than ='.__str__(), num1 < num2 )
-print(num1, '>='.__str__(), num2, ', Greater or Equal ='.__str__(), num1 >= num2 )
-print(num1, '<='.__str__(), num2, ', Less or Equal ='.__str__(), num1 <= num2 )
+print(num1, '==', num2, ', Equal =', num1 == num2 )
+print(num1, '!=', num2, ', Not Equal =', num1 != num2 )
+print(num1, '>', num2, ', Greater Than =', num1 > num2 )
+print(num1, '<', num2, ', Less Than =', num1 < num2 )
+print(num1, '>=', num2, ', Greater or Equal =', num1 >= num2 )
+print(num1, '<=', num2, ', Less or Equal =', num1 <= num2 )
 
 # Casting
 num3 = '300'
@@ -44,5 +44,5 @@ num4 = '400'
 num5 = int(num3)
 num6 = int(num4)
 
-print('String Addition ='.__str__(), num3 + num4)
-print('String --> Integer ='.__str__(), num5 + num6)
+print('String Addition =', num3 + num4)
+print('String --> Integer =', num5 + num6)

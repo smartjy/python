@@ -13,12 +13,12 @@ def days_in_month(year, month):
         return 29
     return month_days[month]
 
-print('2017 leap :'.__str__(), is_leap(2017))
-print('2018 leap :'.__str__(), is_leap(2018))
-print('2019 leap :'.__str__(), is_leap(2019))
-print('2020 leap :'.__str__(), is_leap(2020))
+print('2017 leap :', is_leap(2017))
+print('2018 leap :', is_leap(2018))
+print('2019 leap :', is_leap(2019))
+print('2020 leap :', is_leap(2020))
 print('')
-print('2017 month 2 :'.__str__(), days_in_month(2017, 2))
-print('2018 month 2 :'.__str__(), days_in_month(2018, 2))
-print('2019 month 2 :'.__str__(), days_in_month(2019, 2))
-print('2020 month 2 :'.__str__(), days_in_month(2020, 2))
+print('2017 month 2 :', days_in_month(2017, 2))
+print('2018 month 2 :', days_in_month(2018, 2))
+print('2019 month 2 :', days_in_month(2019, 2))
+print('2020 month 2 :', days_in_month(2020, 2))

@@ -2,8 +2,8 @@
 def hello_func():
     print('Hello Function!')
 
-print('Funtion memory location :'.__str__(), hello_func)
-print('Funtion execution :'.__str__(), hello_func())
+print('Funtion memory location :', hello_func)
+print('Funtion execution :', hello_func())
 # hello_func()
 
 print('')

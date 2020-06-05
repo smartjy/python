@@ -45,6 +45,6 @@ print(cs_courses)
 courses1 = {'History', 'Math', 'Physics', 'Development'}
 courses2 = {'Architect', 'Math', 'Science', 'Development'}
 
-print('courses1 and courses2 intersection ='.__str__(), courses1.intersection(courses2))
-print('courses1 and courses2 difference ='.__str__(), courses1.difference(courses2))
-print('courses1 and courses2 union ='.__str__(), courses1.union(courses2))
+print('courses1 and courses2 intersection =', courses1.intersection(courses2))
+print('courses1 and courses2 difference =', courses1.difference(courses2))
+print('courses1 and courses2 union =', courses1.union(courses2))
